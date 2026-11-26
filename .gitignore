@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Production build
+dist/
+
+# Vite / cache / logs
+.vite/
+*.log
+npm-debug.log*
+
+# Environment & local overrides
+.env
+.env.*
+*.local
+
+# Editor & OS files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
